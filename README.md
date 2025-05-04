@@ -39,7 +39,3 @@
 
 ------
 
-
-[ANii693](https://github.com/ANii693)
-
-Last Edited on: 28/02/2023
