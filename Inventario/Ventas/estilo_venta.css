@@ -1,0 +1,57 @@
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Fijo en la pantalla */
+    z-index: 100; /* Por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    overflow: auto; /* Habilitar desplazamiento si es necesario */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con opacidad */
+}
+
+/* Contenido del modal */
+.Modal-Content {
+    background-color: #ffffff; /* Color de fondo blanco */
+    margin: 5% auto; /* Margen superior e inferior */
+    padding: 5px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+    width: 90%; /* Ancho del modal */
+    max-width: 500px; /* Ancho máximo del modal */
+    max-height: 80%; /* Altura máxima del modal */
+    overflow-y: auto; /* Habilitar desplazamiento vertical si es necesario */
+}
+
+/* Estilo de los inputs y labels */
+label {
+    font-weight: bold; /* Negrita para las etiquetas */
+    margin-bottom: 5px; /* Espaciado inferior reducido */
+}
+
+img {
+    max-width: 150px; /* Limitar el ancho de la imagen a 150px */
+    max-height: 150px; /* Limitar la altura de la imagen a 150px */
+    height: auto; /* Mantener la relación de aspecto */
+    margin-top: 10px; /* Margen superior para separación */
+}
+/*estilo de mensajes*/
+/* estilo_venta.css */
+
+.mensaje {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.mensaje.error {
+    border-left: 5px solid red;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.mensaje.exito {
+    border-left: 5px solid green;
+    background-color: #d4edda;
+    color: #155724;
+}

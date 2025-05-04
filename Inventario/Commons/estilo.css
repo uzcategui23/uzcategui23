@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu > li {
+    float: left;
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    background-color: #575757;
+}
+
+.submenu {
+    display: none; /* Ocultar el submenú por defecto */
+    position: absolute; /* Posicionar el submenú */
+    top: 100%; /* Colocarlo debajo del menú principal */
+    left: 0; /* Alinearlo a la izquierda */
+    background-color: #333; /* Color de fondo del submenú */
+    z-index: 1; /* Asegurarse de que esté por encima de otros elementos */
+}
+
+.menu > li:hover .submenu {
+    display: block; /* Mostrar el submenú al pasar el mouse */
+}
+
+.submenu li {
+    float: none; /* Alinear los elementos del submenú verticalmente */
+}
