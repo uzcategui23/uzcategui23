@@ -5,7 +5,9 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-🌱 I’m currently learning **WEB Development Full-Stack**
+🌱 ¡Hola! Soy un programador Frontend Junior apasionado por la tecnología y el desarrollo web. Me especializo en la creación de interfaces atractivas y funcionales utilizando HTML, CSS y JavaScript, y tengo experiencia trabajando con WordPress para la gestión de contenidos y personalización de sitios. Además, cuento con conocimientos en C++ y Python, lo que me permite abordar desafíos tanto del lado del frontend como del backend. Manejo bases de datos MySQL y sé cómo integrarlas en proyectos web para ofrecer soluciones completas.
+
+Trabajo habitualmente en entornos Linux, aprovechando sus herramientas y terminal para el desarrollo eficiente y la automatización de tareas. Me esfuerzo por mantenerme actualizado y mejorar mis habilidades constantemente, explorando nuevas tecnologías y buenas prácticas del sector. En mi portafolio encontrarás ejemplos de proyectos donde aplico estas tecnologías y demuestro mi capacidad para resolver problemas y aportar valor a los equipos de desarrollo**
 <img align="right" alt="Coding" width="300" src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif">
 
 
