@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitter - High Quality Pet Food</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/616/616408.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+      <button class="nav-toggle-btn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbar" data-nav-toggler>
+        <span class="menu-icon">&#9776;</span>
+        <span class="close-icon">&times;</span>
+      </button>
+      <a href="#" class="logo">Kitter</a>
+      <nav id="navbar" class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+          <li><a href="#shop" class="navbar-link" data-nav-link>Shop</a></li>
+          <li><a href="#collections" class="navbar-link" data-nav-link>Collections</a></li>
+          <li><a href="#blogs" class="navbar-link" data-nav-link>Blogs</a></li>
+          <li><a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
+        </ul>
+        <a href="#" class="navbar-action-btn">Log In</a>
+      </nav>
+      <div class="header-actions">
+        <button class="action-btn" aria-label="Search">🔍</button>
+        <button class="action-btn user" aria-label="User">👤</button>
+        <button class="action-btn" aria-label="Cart">
+          <span class="btn-badge">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- HERO -->
+      <section class="section hero has-bg-image" id="home" aria-label="home" style="background-image: url('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1200&q=80')">
+        <div class="container">
+          <h1 class="h1 hero-title"><span class="span">High Quality</span> Pet Food</h1>
+          <p class="hero-text">Save up to 40% today</p>
+          <a href="#shop" class="btn">Shop Now</a>
+        </div>
+      </section>
+
+      <!-- CATEGORY -->
+      <section class="section category" aria-label="category">
+        <div class="container">
+          <h2 class="h2 section-title"><span class="span">Top</span> Categories</h2>
+          <ul class="has-scrollbar">
+            <li class="scrollbar-item">
+              <div class="category-card">
+                <figure class="card-banner img-holder" style="--width: 330;--height: 300">
+                  <img src="https://images.unsplash.com/photo-1518715308788-3005759c61e9?auto=format&fit=crop&w=330&q=80" width="330" height="300" alt="Cat Food" class="img-cover" loading="lazy">
+                </figure>
+                <h3 class="h3"><a href="#" class="card-title">Cat Food</a></h3>
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="category-card">
+                <figure class="card-banner img-holder" style="--width: 330;--height: 300">
+                  <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=330&q=80" width="330" height="300" alt="Cat Toys" class="img-cover" loading="lazy">
+                </figure>
+                <h3 class="h3"><a href="#" class="card-title">Cat Toys</a></h3>
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="category-card">
+                <figure class="card-banner img-holder" style="--width: 330;--height: 300">
+                  <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=330&q=80" width="330" height="300" alt="Dog Food" class="img-cover" loading="lazy">
+                </figure>
+                <h3 class="h3"><a href="#" class="card-title">Dog Food</a></h3>
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="category-card">
+                <figure class="card-banner img-holder" style="--width: 330;--height: 300">
+                  <img src="https://images.unsplash.com/photo-1518715308788-3005759c61e9?auto=format&fit=crop&w=330&q=80" width="330" height="300" alt="Dog Toys" class="img-cover" loading="lazy">
+                </figure>
+                <h3 class="h3"><a href="#" class="card-title">Dog Toys</a></h3>
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="category-card">
+                <figure class="card-banner img-holder" style="--width: 330;--height: 300">
+                  <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=330&q=80" width="330" height="300" alt="Dog Supplements" class="img-cover" loading="lazy">
+                </figure>
+                <h3 class="h3"><a href="#" class="card-title">Dog Supplements</a></h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- OFFERS -->
+      <section class="section offer" aria-label="offer">
+        <div class="container">
+          <ul class="grid-list">
+            <li>
+              <div class="offer-card has-bg-image img-holder" style="background-image: url('https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=540&q=80');--width: 540;--height: 374">
+                <p class="card-subtitle">Selected Items. Online Only.</p>
+                <h3 class="h3 card-title">Hot Summer <span class="span">Deals</span></h3>
+                <a href="#shop" class="btn">Read More</a>
+              </div>
+            </li>
+            <li>
+              <div class="offer-card has-bg-image img-holder" style="background-image: url('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=540&q=80');--width: 540;--height: 374">
+                <p class="card-subtitle">Treats &amp; Grooming</p>
+                <h3 class="h3 card-title">Spoil your true <span class="span">love</span></h3>
+                <a href="#shop" class="btn">Read More</a>
+              </div>
+            </li>
+            <li>
+              <div class="offer-card has-bg-image img-holder" style="background-image: url('https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=540&q=80');--width: 540;--height: 374">
+                <p class="card-subtitle">Our Brand You Will Love</p>
+                <h3 class="h3 card-title">New this <span class="span">year</span></h3>
+                <a href="#shop" class="btn">Read More</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PRODUCT -->
+      <section class="section product" id="shop" aria-label="product">
+        <div class="container">
+          <h2 class="h2 section-title"><span class="span">Best</span> Sellers</h2>
+          <ul class="grid-list">
+            <li>
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 360;--height: 360">
+                  <img src="https://images.unsplash.com/photo-1518715308788-3005759c61e9?auto=format&fit=crop&w=360&q=80" width="360" height="360" alt="Premium Cat Food" class="img-cover default" loading="lazy">
+                  <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=360&q=80" width="360" height="360" alt="Premium Cat Food" class="img-cover hover" loading="lazy">
+                  <button class="card-action-btn" aria-label="Add to cart" title="Add To Cart">🛒</button>
+                </div>
+                <div class="card-content">
+                  <div class="wrapper">
+                    <div class="rating-wrapper" aria-label="5 stars">⭐⭐⭐⭐⭐</div>
+                    <span class="span">(12)</span>
+                  </div>
+                  <h3 class="h3"><a href="#" class="card-title">Premium Cat Food</a></h3>
+                  <span class="product-price">$15.00</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 360;--height: 360">
+                  <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=360&q=80" width="360" height="360" alt="Dog Chew Toy" class="img-cover default" loading="lazy">
+                  <img src="https://images.unsplash.com/photo-1518715308788-3005759c61e9?auto=format&fit=crop&w=360&q=80" width="360" height="360" alt="Dog Chew Toy" class="img-cover hover" loading="lazy">
+                  <button class="card-action-btn" aria-label="Add to cart" title="Add To Cart">🛒</button>
+                </div>
+                <div class="card-content">
+                  <div class="wrapper">
+                    <div class="rating-wrapper" aria-label="4 stars">⭐⭐⭐⭐</div>
+                    <span class="span">(8)</span>
+                  </div>
+                  <h3 class="h3"><a href="#" class="card-title">Dog Chew Toy</a></h3>
+                  <span class="product-price">$10.00</span>
+                </div>
+              </div>
+            </li>
+            <!-- Agrega más productos aquí -->
+          </ul>
+        </div>
+      </section>
+
+      <!-- COLLECTIONS -->
+      <section class="section collections" id="collections" aria-label="collections">
+        <div class="container">
+          <h2 class="h2 section-title"><span class="span">Our</span> Collections</h2>
+          <ul class="grid-list">
+            <li>
+              <div class="collection-card">
+                <img src="https://images.unsplash.com/photo-1525253086316-d0c936c814f8?auto=format&fit=crop&w=400&q=80" alt="Healthy Cat Collection" class="img-cover" loading="lazy">
+                <h3 class="h3">Healthy Cat Collection</h3>
+                <p>Discover our range of nutritious food and fun toys for your feline friend.</p>
+                <a href="#shop" class="btn">Shop Cats</a>
+              </div>
+            </li>
+            <li>
+              <div class="collection-card">
+                <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" alt="Active Dog Collection" class="img-cover" loading="lazy">
+                <h3 class="h3">Active Dog Collection</h3>
+                <p>Everything your dog needs for a happy, healthy, and active life.</p>
+                <a href="#shop" class="btn">Shop Dogs</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- BLOGS -->
+      <section class="section blogs" id="blogs" aria-label="blogs">
+        <div class="container">
+          <h2 class="h2 section-title"><span class="span">Latest</span> Blogs</h2>
+          <ul class="grid-list">
+            <li>
+              <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1518715308788-3005759c61e9?auto=format&fit=crop&w=400&q=80" alt="How to Choose the Best Food for Your Cat" class="img-cover" loading="lazy">
+                <h3 class="h3">How to Choose the Best Food for Your Cat</h3>
+                <p>Tips and advice on selecting high-quality nutrition for your feline companion.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=400&q=80" alt="5 Fun Activities for Dogs" class="img-cover" loading="lazy">
+                <h3 class="h3">5 Fun Activities for Dogs</h3>
+                <p>Keep your dog entertained and healthy with these engaging activities.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+          <h2 class="h2 section-title"><span class="span">Contact</span> Us</h2>
+          <form class="contact-form" autocomplete="off">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </article>
+  </main>
+  <script src="script.js" defer></script>
+</body>
+</html>
